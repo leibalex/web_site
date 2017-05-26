@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: Playfair Display Regular;
+	src:url(fonts/PlayfairDisplay-Regular.otf);
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: Playfair Display BoldItalic;
+	src:url(fonts/PlayfairDisplay-BoldItalic.otf);
+	font-weight: bold;
+}
+
+@font-face{
+	font-family: Work Sans;
+	src:url(fonts/WorkSans-Medium.otf);
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: Playfair Display Bold;
+	font-weight: bold;
+	src:url(fonts/PlayfairDisplay-Bold.otf);
+}
+
+@font-face{
+	font-family: Work Sans Regular;
+	font-weight: normal;
+	src:url(fonts/WorkSans-Regular.otf);
+}
+
+body{
+	background: #fff;
+}
+
+header{
+	width: 100%;
+	height:100px;
+}
+
+header .logo{
+	margin:34px 0 34px 98px;
+	float: left;
+}
+
+header .menu{
+	float: right;
+	margin: 34px 98px 34px 0;
+}
+
+header .menu img{
+	display: block;
+	margin:5px; 
+}
+
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.photo{
+	width: 100%;
+	height: 570px;
+	background: #eee;
+}
+
+.text{
+	width: 100%;
+	height: 452px;
+	border: 1px solid transparent;
+}
+
+.text .left{
+	font-family: Playfair Display Regular;
+	font-size: 30px;
+	float: left;
+	margin: 101px 100px 100px 97px;
+	width: 375px;
+	height: 85px;
+
+}
+
+.text .left span{
+	font-family: Playfair Display BoldItalic;
+}
+
+.text .right{
+	float: right;
+	margin: 101px 95px 0 100px;
+	width: 580px;
+	height: 160px;
+	font-size: 15px;
+	font-family: Work Sans;
+	line-height: 1.5;
+
+}
+
+.signature{
+	float: right;
+	margin:40px 426px 0 0; 
+}
+
+.feedback{
+	width: 100%;
+	height: 260px;
+	background: url(bg.png);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.feedback div{
+	margin-top: 120px;
+}
+
+.feedback div span{
+	display: block;
+	font-size: 48px;
+	color: #fff;
+	float: left;
+	margin-right: 29px;
+}
+
+.feedback div .counts{
+	font-family: Work Sans Regular;
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	line-height: 25px;
+}
+
+.feedback div .counts span{
+	font-family: Work Sans;
+	font-size: 14px;
+}
+
+.contact{
+	width: 100%;
+	height: 400px;
+	background: white;
+	text-align: center;
+	border: 1px solid transparent;
+}
+
+.contact h1{
+	font-family: Playfair Display Bold;
+	font-size: 38px;
+	margin-top: 98px;
+}
+
+.contact p{
+	font-family: Work Sans;
+	font-size: 15px;
+	margin-top: 36px;
+}
+
+.contact button{
+	background: rgb(25,25,25);
+	font-family: Work Sans;
+	font-size: 14px;
+	margin-top: 57px;
+	padding: 22px 43px;
+	color: #fff;
+	outline: none;
+}
+
+.contact button:hover{
+	cursor: pointer;
+}
+
+footer{
+	width: 100%;
+	height: 160px;
+	background: #ebebeb;
+	text-align: center;
+	border: 1px solid transparent;
+}
+
+footer .icons{
+	width: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 53px auto 23px auto;
+}
+
+footer p{
+	font-family: Work Sans;
+	font-size: 14px;
+	color:#5f5f5f;
+}
